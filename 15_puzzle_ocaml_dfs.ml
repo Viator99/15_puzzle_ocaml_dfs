@@ -78,4 +78,5 @@ let giocoDel15 state =
     | f::rest ->
       try f state :: aux rest
       with Fail -> aux rest
-  in aux [muoviSU; muoviGIU; muoviDX; muoviSX]
+  in aux [muoviSU; muoviGIU; muoviDX; muoviSX];;
+  
